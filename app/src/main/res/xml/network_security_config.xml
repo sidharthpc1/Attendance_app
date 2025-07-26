@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.1.39</domain> <!-- Flask server -->
+        <domain includeSubdomains="true">192.168.1.50</domain> <!-- ESP32 server -->
+    </domain-config>
+</network-security-config>
